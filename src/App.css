@@ -1,0 +1,100 @@
+.calcu {
+  position: relative;
+  margin: 200px auto 0;
+margin-top: 5px;
+  width: 20cm;
+  height: 100%; /* This should be a valid value like '100px' or '100vh' */
+  background: linear-gradient(0deg, #000, #272727);
+}
+
+.CalcContainer {
+  width: 600px;
+  margin:auto;
+  margin-top: 10%;
+  text-align: center;
+  padding: 50px;
+  border: none;
+  border-radius: 5px;
+}
+h1{
+  color: white;
+  margin-bottom: 5%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.CalcDisplay {
+  border: 1px solid #212223;
+  height: 30px;
+  font-size: 2em;
+  text-align: right;
+  padding:10px;
+  background: #434547;
+  color:#F5F5E9;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.ButtonContainer {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.CalcButtonNum {
+    font-size: 2em;
+    justify-content: center;
+    color: #636059;
+    background-color: #F2F1F0;
+    border: 1px solid #F2F1FD;
+    border-style: ridge;
+    border-color: #212223;
+    padding: 5px;
+
+}
+
+.CalcButton {
+  font-size: 2em;
+  justify-content: center;
+  color: #000000;
+  background-color: #00ff80;
+  border: 1px solid #D6D6D6;
+  border-radius: 4px;
+  padding: 5px;
+  
+}
+.CalcButtonOpe{
+  font-size: 2em;
+  justify-content: center;
+  color: #ffffff;
+  background-color: #ff9900;
+  border: 1px solid #ffffff;
+  border-style: ridge;
+}
+
+.CalcButtonName {
+  justify-content: center;
+  color: #ffffff;
+  background-color: #000000;
+  border: 1px solid #ffffff;
+  width: 100%;
+	padding: 30px 60px;
+	box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.4);
+	text-transform: uppercase;
+	letter-spacing: 10px;
+  font-size: 2em;
+	font: consolas;
+  
+}
+
+.CalcButtonClear {
+  font-size: 2em;
+  justify-content: center;
+  color: #000000;
+  background-color: #a29a9a;
+  border: 1px solid #fff;
+  border-style: ridge;
+  border-color: #000000;
+}
+
+.Name {
+  margin-top: 10px;
+}
